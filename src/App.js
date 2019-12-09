@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import axios from 'axios';
-// const databaseUrl = process.env.HEROKU_DB_URL || 'http://localhost:3000'
-const databaseUrl = 'https://heroku-deployment-test-backend.herokuapp.com/'
+const herokuBackendUrl = process.env.HEROKU_DB_URL || 'http://localhost:3000'
+const databaseUrl = 'https://heroku-deployment-test-backend.herokuapp.com'
 
 class App extends React.Component {
   state = {
